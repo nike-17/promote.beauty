@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: promote-beauty-api
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: AUTH0_AUDIENCE
+        value: https://api.promote.beauty
+      - key: AUTH0_ISSUER
+        value: https://dev-hx61dop1or6ajnlg.us.auth0.com/
+      - key: CORS_ORIGIN
+        value: https://promote.beauty

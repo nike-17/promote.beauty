@@ -1,0 +1,22 @@
+{
+  "name": "promote-beauty-api",
+  "description": "Promote.Beauty API Server",
+  "env": {
+    "NODE_ENV": {
+      "description": "Environment",
+      "value": "production"
+    },
+    "AUTH0_AUDIENCE": {
+      "description": "Auth0 API Audience",
+      "value": "https://api.promote.beauty"
+    },
+    "AUTH0_ISSUER": {
+      "description": "Auth0 Domain",
+      "value": "https://dev-hx61dop1or6ajnlg.us.auth0.com/"
+    },
+    "CORS_ORIGIN": {
+      "description": "Frontend URL",
+      "value": "https://promote.beauty"
+    }
+  }
+}
